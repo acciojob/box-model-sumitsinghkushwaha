@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+#box{
+	background-color:grey;
+	border: 5px solid black;
+	width:400px;
+	height:200px;
+	border-radius:20px;
+	display:flex;
+	text-align:center;
+	justify-content:center;
+}
+.green1{
+	width:50px;
+	height:50px;
+/* 	margin: */
+	background-color:green;
+	text-align:center;
+	border-radius:50%;
+
+
+}
+.yellow1{
+	width:50px;
+	height:50px;
+	background-color:yellow;
+	text-align:center;
+	border-radius:50%;
+
+}
+.red1{
+	width:50px;
+	height:50px;
+	background-color:red;
+	text-align:center;
+	border-radius:50%;
+
+}
