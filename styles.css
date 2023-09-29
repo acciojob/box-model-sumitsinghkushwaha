@@ -1,37 +1,41 @@
 /*  your css code here. If applicable */
-#box{
+*{
+	padding:0px;
+	margin:0px;
+}
+
+#container {
 	background-color:grey;
-	border: 5px solid black;
-	width:400px;
-	height:200px;
-	border-radius:20px;
+    width: 50vw; /* Set the desired width */
+	height: 18vh;
+    padding: 20px; /* Add padding */
 	display:flex;
-	text-align:center;
 	justify-content:center;
+    border: 5px solid black; /* Add a border */
+    border-radius: 30px; /* Make it rounded */
 }
-.green1{
-	width:50px;
-	height:50px;
-/* 	margin: */
-	background-color:green;
-	text-align:center;
-	border-radius:50%;
-
-
+#signal{
+	display:flex;
+	justify-content:center;
+	
 }
-.yellow1{
-	width:50px;
-	height:50px;
-	background-color:yellow;
-	text-align:center;
-	border-radius:50%;
 
+.red, .green, .yellow {
+    width: 100px; /* Set the size of the circles */
+    height: 100px; /* Set the size of the circles */
+    border-radius: 50%; /* Make them circles */
+    display: flex;
+    margin: 5px; /* Add spacing between them */
 }
-.red1{
-	width:50px;
-	height:50px;
-	background-color:red;
-	text-align:center;
-	border-radius:50%;
 
+.red {
+    background-color: red; /* Set the red color */
+}
+
+.green {
+    background-color: green; /* Set the green color */
+}
+
+.yellow {
+    background-color: yellow; /* Set the yellow color */
 }
