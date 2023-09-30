@@ -3,26 +3,27 @@
 	padding:0px;
 	margin:0px;
 }
-
-#container {
-	background-color:grey;
-    width: 50vw; /* Set the desired width */
-	height: 18vh;
-    padding: 20px; /* Add padding */
+#container{
+	width:100vw;
+	height:100vh;
 	display:flex;
 	justify-content:center;
-    border: 5px solid black; /* Add a border */
-    border-radius: 30px; /* Make it rounded */
+	align-items:center;
 }
 #signal{
+	width:300px;
+	height:100px;
+	background-color:grey;
 	display:flex;
 	justify-content:center;
-	
+	align-items:center;
+	border:5px solid black;
+	border-radius:5px;
 }
 
 .red, .green, .yellow {
-    width: 100px; /* Set the size of the circles */
-    height: 100px; /* Set the size of the circles */
+    width: 50px; /* Set the size of the circles */
+    height: 50px; /* Set the size of the circles */
     border-radius: 50%; /* Make them circles */
     display: flex;
     margin: 5px; /* Add spacing between them */
